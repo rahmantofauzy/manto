@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$edit_mode = "L";
+$edit_mode = "W";
 
-if ($edit_mode == "W") {
+if ($edit_mode === "W") {
     $config['base_url'] = 'https://manto.projectpdg.my.id/';
 } else {
     $config['base_url'] = 'http://localhost/manto/';
